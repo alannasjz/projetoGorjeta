@@ -1,0 +1,59 @@
+h1{
+    margin-block-start: 0em;
+    color: white;
+    align-items: center;
+}
+
+h2{
+    color: black;
+}
+
+.input_area{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input{
+    height: 1.5em;
+}
+
+.resultado{
+    width: 100%;
+    margin-top: 2em;
+    align-items: center;
+    background-color: white;
+}
+
+.container{
+    background-color: #1a6074;
+    display: flex;
+    padding: 5em;
+    border-radius: 0.5em;
+    flex-direction: column;
+    align-items: center;
+    width: 20em;
+}
+
+.area{
+    display: flex;
+    justify-content: center;
+}
+
+porcentagem{
+    padding: 10;
+}
+
+button{
+
+    height: 3em;
+    width: 100%;
+    background-color: rgb(0, 102, 255);
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(34, 170, 34);
+}
